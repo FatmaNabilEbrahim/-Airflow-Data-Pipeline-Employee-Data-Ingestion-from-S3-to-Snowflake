@@ -10,8 +10,8 @@ from airflow.decorators import task
 @task(multiple_outputs=True)
 def join_and_detect_new_or_changed_rows():
     ################################### Connect to S3 #####################################
-    AWS_ACCESS_KEY='AKIAUYVU2LE7QYPX3Y7K'
-    AWS_SECRET_KEY='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'
+    AWS_ACCESS_KEY=''
+    AWS_SECRET_KEY=''
 
     os.environ['AWS_ACCESS_KEY_ID']=AWS_ACCESS_KEY
     os.environ['AWS_SECRET_ACCESS_KEY']=AWS_SECRET_KEY
