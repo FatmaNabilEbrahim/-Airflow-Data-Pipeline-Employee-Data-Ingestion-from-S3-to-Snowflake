@@ -25,6 +25,9 @@ The project structure is organized as follows:
 - `queries/`: Directory containing SQL queries used in the DAG.
 - `README.md`: This file providing an overview of the project.
 
+![image](https://github.com/FatmaNabilEbrahim/-Airflow-Data-Pipeline-Employee-Data-Ingestion-from-S3-to-Snowflake/assets/105246862/92b14ba8-380b-428a-b44d-82443d82c238)
+
+
 ## DAG Description
 
 The DAG (`LoadEmpDataFromS3ToSnowflake`) consists of the following tasks:
